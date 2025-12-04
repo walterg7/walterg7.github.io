@@ -381,7 +381,7 @@ Add these rules to ossec.conf if you have not already done so.
 
 Again, lots of false positives, we can tune it later
 
-I am ooking at high severity alerts (11-14)
+I am looking at high severity alerts (11-14)
 
 Notice we are getting Sysmon events on Wazuh from all workstations
 

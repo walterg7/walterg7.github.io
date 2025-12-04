@@ -114,7 +114,7 @@ The config should look like this:
 
 Then run  `systemctl restart wazuh-manager` to make the changes go into effect
 
-cd into thr `archives` directory 
+cd into the `archives` directory 
 
 We should see **archives.json** and **archives.log**
 
