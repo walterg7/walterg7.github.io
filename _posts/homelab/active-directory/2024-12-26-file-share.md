@@ -14,6 +14,10 @@ You must have a functioning Domain Controller and at least 1 Windows client join
 
 The Domain Controller and Windows client should be able to communicate with each other (you can test this with pings)
 
+
+### Objective
+We will configure a role-based file share in Active Directory to practice access control, NTFS permissions, and group-based authorization. The goal is to simulate how corporate environments manage departmental file access and enforce least privilege.
+
 ### Install File Services
 
 On the DC VM, head to the Server Manager Dashboard
@@ -280,3 +284,19 @@ As Bob, I am able to access the IT share and create a new file
 ![32](/assets/img/cyberlab/active-directory/file-share/32.png){: width="800" height="400" }
 
 We now have a functioning file share with proper security groups
+
+### Challenges & Troubleshooting
+
+- Incorrect NTFS vs. Share Permission Alignment
+    - Initially granted access through share permissions but forgot to configure NTFS permissions, resulting in users being able to see the share but not open folders.
+
+- Misconfigured Inheritance
+    - Folder inheritance caused unintended access for lower-privileged groups and required manually breaking inheritance and configuring explicit permissions.
+
+### Learning Outcomes
+
+- Gained hands-on experience designing and implementing least-privilege access models.
+
+- Learned how AD groups interact with NTFS and share permissions to enforce access control.
+
+- Practiced real-world troubleshooting of access issues from the user perspective.

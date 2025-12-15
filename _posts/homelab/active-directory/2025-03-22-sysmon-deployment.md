@@ -37,7 +37,7 @@ Click raw
 
 ![4](/assets/img/cyberlab/active-directory/sysmon-deployment/4.png){: width="800" height="400" }
 
-Right click on the page and save as sysmonconfig.xml i
+Right click on the page and save as sysmonconfig.xml
 
 Save it in the Sysmon directory (the extracted zip)
 
@@ -310,7 +310,7 @@ and Sysmon64 is listed as a running service
 
 Since the PowerShell script works and is shared to our AD computers, the users can just navigate to the share and execute the script to install Sysmon.
 
-That's boring so we are going to have the PowerShell script execute upon system startup (automation!)
+That's boring so we are going to have the PowerShell script execute upon system startup.
 
 This will also show how dangerous it would be if a bad actor got access to a Domain Admin account and created a malicious script to run on system startup.
 

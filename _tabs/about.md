@@ -6,17 +6,17 @@ order: 4
 
 # Welcome
 
-I am Walter Guerrero, a current NJIT student pursuing a B.S. in IT with an interest in networking, system administration, cloud computing, and cybersecurity (blue team). This is my blog/portfolio page for my projects.
+I am Walter Guerrero, an NJIT student pursuing a B.S. in IT with a strong interest in blue team security. I am always curious and always learning. This is my blog/portfolio page for my projects.
 
 # Resume
 
 ### Skills
 
-**Operating Systems:** Windows 10/11, Windows Server 2022/2025, Linux (Ubuntu 24.04 LTS)
+**Operating Systems:** Windows 10/11, Windows Server 2022/2025, Linux (Ubuntu 22.04/24.04 LTS)
 
 **Scripting & Automation:** PHP, Python, Bash, SQL, HTML/CSS, JavaScript, PowerShell
 
-**Infrastructure & Administration:** Virtualization (VirtualBox), Directory Services (Active Directory), Cloud Platforms (Azure, GCP), AMQP (RabbitMQ)
+**Infrastructure & Administration:** Virtualization (Type 2 hypervisors, VirtualBox), Directory Services (Active Directory), Cloud Platforms (Azure, GCP), AMQP (RabbitMQ)
 
 **Networking & Security Tools:** Firewalls (OPNsense), SIEM (Wazuh,  Splunk), Network Monitoring (Wireshark, Nagios), Vulnerability Management (OpenVAS, Nmap), Sysinternals (Sysmon), SOAR (Shuffle)
 
@@ -36,7 +36,7 @@ I am Walter Guerrero, a current NJIT student pursuing a B.S. in IT with an inter
 
 - Developed custom Wazuh detection logic and Active Response to automatically quarantine compromised endpoints
 
-- Built Shuffle SOAR workflows for log enrichment, orchestration, and response
+- Built Shuffle SOAR workflows for log enrichment, orchestration, and automated response, integrating VirusTotal and TheHive for case management
 
 - Integrated VirusTotal API for automated threat intelligence and IOC enrichment
 
@@ -62,7 +62,7 @@ I am Walter Guerrero, a current NJIT student pursuing a B.S. in IT with an inter
 
 - Configured networking and access controls, including virtual networks, VPCs, NSGs, IAM policies, firewall rules, and private endpoints
 
-- Applied CIS Benchmark security best practices to ensure compliance and hardening across Azure and GCP environments
+- Applied CIS Benchmark security best practices to ensure compliance and hardening across Azure and GCP environments 
 
 - Deployed and managed cloud services: 
 
