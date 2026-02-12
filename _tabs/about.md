@@ -6,7 +6,7 @@ order: 4
 
 # Welcome
 
-I am Walter Guerrero, an NJIT student pursuing a B.S. in IT with a strong interest in blue team security. I am always curious and always learning. This is my blog/portfolio page for my projects.
+I am Walter, a recent IT graduate with a strong foundation in networking, systems administration, web development, cloud computing, and a growing focus on cybersecurity. I am documenting my learning journey for everyone to see. This is my portfolio for my projects, feel free to follow along.
 
 # Resume
 
@@ -14,67 +14,74 @@ I am Walter Guerrero, an NJIT student pursuing a B.S. in IT with a strong intere
 
 **Operating Systems:** Windows 10/11, Windows Server 2022/2025, Linux (Ubuntu 22.04/24.04 LTS)
 
-**Scripting & Automation:** PHP, Python, Bash, SQL, HTML/CSS, JavaScript, PowerShell
+**Cloud & Infrastructure:** Azure (Sentinel, VNets, NSGs, IAM, Logic Apps), GCP (VPC, Compute Engine, IAM, BigQuery), Active Directory (Users, GPO, RBAC, Domain Services), Virtualization (VirtualBox, Type 2 Hypervisors), RabbitMQ (AMQP Messaging)
 
-**Infrastructure & Administration:** Virtualization (Type 2 hypervisors, VirtualBox), Directory Services (Active Directory), Cloud Platforms (Azure, GCP), AMQP (RabbitMQ)
+**Security Engineering & Monitoring:** SIEM (Wazuh, Microsoft Sentinel), SOAR (Shuffle), Endpoint Telemetry (Sysmon), Vulnerability Management (OpenVAS, Nmap), Network Monitoring (Wireshark, Nagios), Firewalls (OPNsense)
 
-**Networking & Security Tools:** Firewalls (OPNsense), SIEM (Wazuh,  Splunk), Network Monitoring (Wireshark, Nagios), Vulnerability Management (OpenVAS, Nmap), Sysinternals (Sysmon), SOAR (Shuffle)
+**Scripting & Automation:** Python, PowerShell, Bash, KQL, SQL
 
 ### Projects
 
 [**Cybersecurity & Systems Administration Home Lab**](/posts/main)
+- Designed segmented lab network using OPNsense to simulate corporate, server, and administrative environments
 
-- Designed and deployed an isolated lab network using OPNsense to implement network segmentation across corporate, server, and administrative environments
+- Deployed and managed Active Directory domain with users, RBAC, file shares, and GPOs to emulate enterprise identity management
 
-- Built and managed an Active Directory domain with users, roles, file shares, and Group Policy Objects (GPOs) to emulate enterprise operations
+- Configured Sysmon via GPO and centralized logs in Wazuh SIEM for Windows telemetry monitoring
 
-- Deployed Sysmon via GPO and integrated with Wazuh SIEM to generate Windows telemetry for security monitoring
-
-- Developed custom Wazuh detection rules to identify suspicious activity, enhancing visibility and detection capabilities
+- Developed custom Wazuh detection rules to identify credential dumping activity
 
 [**SOC Automation Project**](/posts/soc-main)
+- Built custom Wazuh detection rules and Active Response to automatically isolate compromised endpoints
 
-- Developed custom Wazuh detection logic and Active Response to automatically quarantine compromised endpoints
+- Developed Shuffle SOAR workflows for alert enrichment, orchestration, and automated containment
 
-- Built Shuffle SOAR workflows for log enrichment, orchestration, and automated response, integrating VirusTotal and TheHive for case management
+- Integrated VirusTotal API for IOC enrichment and threat intelligence automation
 
-- Integrated VirusTotal API for automated threat intelligence and IOC enrichment
+- Connected alerts to TheHive for structured case management and triage
 
-- Connected alerts to TheHive for case creation and triage
-
-- Automated analyst notifications for high-severity security events
+- Automated high-severity alert notifications to reduce response time
 
 [**Systems Integration Project - Backend Developer**](/posts/it490-main)
+- Designed messaging architecture using RabbitMQ (exchanges, queues, consumers) for reliable inter-service communication
 
-- Built messaging infrastructure with RabbitMQ by configuring exchanges, queues, and listeners to enable reliable inter-server communication
+- Built secure authentication workflows with API validation and session management
 
-- Developed an authentication system with secure API calls and session handling to protect user access
+- Developed push notification services to support real-time user updates
 
-- Created push notification and deployment systems to streamline communication and accelerate application delivery
+- Implemented centralized logging for distributed services to improve observability
 
-- Implemented decentralized logging to centralize monitoring and improve visibility across distributed services
-
-- Integrated Nagios and OpenVAS for security monitoring and vulnerability management, enhancing system resilience
+- Integrated Nagios and OpenVAS for infrastructure monitoring and vulnerability scanning
 
 [**Cloud Administration Projects**](/posts/cloud-main)
+- Designed and deployed secure cloud environments in Azure and GCP simulating business applications
 
-- Designed and deployed secure cloud environments simulating a business application on Azure and GCP
+- Configured networking and access controls (VNet/VPC, NSGs, IAM, firewalls, private endpoints)
 
-- Configured networking and access controls, including virtual networks, VPCs, NSGs, IAM policies, firewall rules, and private endpoints
+- Applied CIS Benchmark hardening standards across cloud resources
 
-- Applied CIS Benchmark security best practices to ensure compliance and hardening across Azure and GCP environments 
+- Deployed and managed cloud services including:
 
-- Deployed and managed cloud services: 
+    - Azure: VNets, NSGs, Private DNS, IAM, Firewall Rules
 
-    - Azure: Virtual Networks, NSGs, Private DNS Zones, IAM, Firewall Rules
+    - GCP: VPC, Compute Engine, Cloud Storage, Autoscaling, BigQuery
 
-    - GCP: VPC, Compute Engine (VMs), Cloud Storage Buckets, Autoscaling, Health Checks, BigQuery
+[**Azure SOC Project**](/posts/azure-soc-main/)
+- Deployed intentionally exposed Windows VM to simulate external attack surface and generate real-world telemetry
+
+- Configured Microsoft Sentinel for log ingestion, analytics, and alerting
+
+- Built custom Sentinel workbook to visualize attacker IP geolocation and brute-force patterns
+
+- Developed and automated RDP blocking playbook using Azure Logic Apps to reduce brute-force noise
+
+- Created and tuned detection rule for persistence via scheduled tasks
 
 ### Certifications 
 
 [**CompTIA Security+**](https://www.credly.com/badges/4a6a06ae-dcb2-44ae-9cff-d4307e54d291)
 
-# Contact
+# Contact Me
 
 - **Email:** [walter.guerrero7@outlook.com](mailto:walter.guerrero7@outlook.com)
 - **LinkedIn:** [walterguerrero7](https://www.linkedin.com/in/walterguerrero7/)
