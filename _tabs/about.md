@@ -22,14 +22,18 @@ I am Walter, a recent IT graduate with a strong foundation in networking, system
 
 ### Projects
 
-[**Cybersecurity & Systems Administration Home Lab**](/posts/main)
+[**Cybersecurity & Systems Administration Home Lab**](/posts/cyberlab)
 - Designed segmented lab network using OPNsense to simulate corporate, server, and administrative environments
 
 - Deployed and managed Active Directory domain with users, RBAC, file shares, and GPOs to emulate enterprise identity management
 
 - Configured Sysmon via GPO and centralized logs in Wazuh SIEM for Windows telemetry monitoring
 
-- Developed custom Wazuh detection rules to identify credential dumping activity
+- Simulated red team exercises, such as malware delivery and data exfiltration
+
+- Simulated blue team exercises, such as detection engineering and creating automated response scripts
+
+- Developed and tuned custom Wazuh detection rules to identify credential dumping activity, reverse shells, and malicious PowerShell executions
 
 [**SOC Automation Project**](/posts/soc-main)
 - Built custom Wazuh detection rules and Active Response to automatically isolate compromised endpoints
