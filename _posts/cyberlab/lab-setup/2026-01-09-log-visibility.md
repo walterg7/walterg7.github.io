@@ -217,6 +217,6 @@ This is my configuration. Click save
 
 ![25](/assets/img/cyberlab2/setup/log-visibility/25.png){: width="800" height="400" }
 
-Now, we should see a lot less [`ntp.ubuntu.com`](http://ntp.ubuntu.com) logs.
+Now, we should see a lot less `ntp.ubuntu.com` logs.
 
 ![26](/assets/img/cyberlab2/setup/log-visibility/26.png){: width="800" height="400" }
